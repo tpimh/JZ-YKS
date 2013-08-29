@@ -1,4 +1,4 @@
-update=Чт. 29 авг. 2013 18:42:11
+update=Чт. 29 авг. 2013 19:14:31
 version=1
 last_client=eeschema
 [cvpcb]
@@ -47,7 +47,7 @@ LibName16=valves
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=lib
 NetFmtName=
 RptD_X=0
 RptD_Y=100
