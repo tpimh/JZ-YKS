@@ -1,4 +1,4 @@
-update=Чт. 29 авг. 2013 19:14:31
+update=Чт. 29 авг. 2013 19:27:05
 version=1
 last_client=eeschema
 [cvpcb]
@@ -57,3 +57,4 @@ LabSize=60
 LibName1=ingenic
 LibName2=device-small
 LibName3=power-selection
+LibName4=crystal
