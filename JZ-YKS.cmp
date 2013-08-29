@@ -1,0 +1,269 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Чт. 29 авг. 2013 23:44:47
+
+BeginCmp
+TimeStamp = /521FAF2E;
+Reference = C1;
+ValeurCmp = CSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F659F;
+Reference = C2;
+ValeurCmp = CSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F6590;
+Reference = C3;
+ValeurCmp = CSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F6581;
+Reference = C4;
+ValeurCmp = CSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F6563;
+Reference = C5;
+ValeurCmp = CSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F6572;
+Reference = C6;
+ValeurCmp = CSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F9A18;
+Reference = C7;
+ValeurCmp = CSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F91A2;
+Reference = C8;
+ValeurCmp = CSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F8B51;
+Reference = C9;
+ValeurCmp = CSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F96CF;
+Reference = C10;
+ValeurCmp = CSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F8755;
+Reference = C11;
+ValeurCmp = CSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F750E;
+Reference = C12;
+ValeurCmp = CSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F751D;
+Reference = C13;
+ValeurCmp = CSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F752C;
+Reference = C14;
+ValeurCmp = CSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F9279;
+Reference = C15;
+ValeurCmp = CSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F7DA7;
+Reference = C16;
+ValeurCmp = CSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F7D98;
+Reference = C17;
+ValeurCmp = CSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F7D89;
+Reference = C18;
+ValeurCmp = CSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F7DB6;
+Reference = C19;
+ValeurCmp = CSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F6C57;
+Reference = FB1;
+ValeurCmp = FBSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F6C36;
+Reference = FB2;
+ValeurCmp = FBSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F8C75;
+Reference = FB3;
+ValeurCmp = FBSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F89A0;
+Reference = FB4;
+ValeurCmp = FBSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F9890;
+Reference = FB5;
+ValeurCmp = FBSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F9415;
+Reference = FB6;
+ValeurCmp = FBSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F787F;
+Reference = FB7;
+ValeurCmp = FBSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521E0A48;
+Reference = IC1;
+ValeurCmp = JZ4725;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F96C0;
+Reference = R1;
+ValeurCmp = RSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F7A88;
+Reference = R2;
+ValeurCmp = RSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F7A97;
+Reference = R3;
+ValeurCmp = RSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F7B95;
+Reference = R4;
+ValeurCmp = RSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F7B7C;
+Reference = R5;
+ValeurCmp = RSMALL;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521FB17A;
+Reference = TP1;
+ValeurCmp = TP;
+IdModule  = TP40x20;
+EndCmp
+
+BeginCmp
+TimeStamp = /521FB189;
+Reference = TP2;
+ValeurCmp = TP;
+IdModule  = TP40x20;
+EndCmp
+
+BeginCmp
+TimeStamp = /521FB198;
+Reference = TP3;
+ValeurCmp = TP;
+IdModule  = TP40x20;
+EndCmp
+
+BeginCmp
+TimeStamp = /521FB1A7;
+Reference = TP4;
+ValeurCmp = TP;
+IdModule  = TP40x20;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F79FD;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = crystal;
+EndCmp
+
+BeginCmp
+TimeStamp = /521F7A0C;
+Reference = X2;
+ValeurCmp = CRYSTAL;
+IdModule  = crystal;
+EndCmp
+
+EndListe
