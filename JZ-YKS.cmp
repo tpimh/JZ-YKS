@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Чт. 29 авг. 2013 23:44:47
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Пт. 30 авг. 2013 00:04:58
 
 BeginCmp
 TimeStamp = /521FAF2E;
@@ -186,7 +186,7 @@ BeginCmp
 TimeStamp = /521E0A48;
 Reference = IC1;
 ValeurCmp = JZ4725;
-IdModule  = ;
+IdModule  = JZ-LQFP128;
 EndCmp
 
 BeginCmp
