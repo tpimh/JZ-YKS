@@ -1,13 +1,8 @@
-update=Сб. 31 авг. 2013 13:11:27
+update=Сб. 31 авг. 2013 13:16:07
 version=1
-last_client=eeschema
+last_client=cvpcb
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
@@ -28,10 +23,12 @@ DrawSegmentWidth="    0,200000"
 BoardOutlineThickness="    0,150000"
 ModuleOutlineThickness="    0,150000"
 [pcbnew/libraries]
-LibDir=mod
 LibName1=crystal
 LibName2=smd
 LibName3=qfp-gen
+LibName4=pinhead-6
+LibName5=pinhead-30
+LibDir=mod
 [eeschema]
 version=1
 LibDir=lib
@@ -47,3 +44,8 @@ LibName3=power-selection
 LibName4=crystal
 LibName5=PINHEAD30
 LibName6=PINHEAD6
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
