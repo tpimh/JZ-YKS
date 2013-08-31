@@ -1,6 +1,6 @@
-update=Сб. 31 авг. 2013 13:16:07
+update=Сб. 31 авг. 2013 14:30:55
 version=1
-last_client=cvpcb
+last_client=eeschema
 [general]
 version=1
 [pcbnew]
@@ -29,6 +29,11 @@ LibName3=qfp-gen
 LibName4=pinhead-6
 LibName5=pinhead-30
 LibDir=mod
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=lib
@@ -44,8 +49,4 @@ LibName3=power-selection
 LibName4=crystal
 LibName5=PINHEAD30
 LibName6=PINHEAD6
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName7=PINHEAD8

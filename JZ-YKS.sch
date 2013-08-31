@@ -1,10 +1,11 @@
-EESchema Schematic File Version 2  date Сб. 31 авг. 2013 13:12:18
+EESchema Schematic File Version 2  date Сб. 31 авг. 2013 14:36:13
 LIBS:ingenic
 LIBS:device-small
 LIBS:power-selection
 LIBS:crystal
 LIBS:PINHEAD30
 LIBS:PINHEAD6
+LIBS:PINHEAD8
 LIBS:JZ-YKS-cache
 EELAYER 24 0
 EELAYER END
@@ -639,8 +640,8 @@ $EndComp
 $Sheet
 S 6550 1800 1100 2300
 U 5221BD3F
-F0 "lcd connector" 50
-F1 "lcdconn.sch" 50
+F0 "connectors" 50
+F1 "connectors.sch" 50
 $EndSheet
 Text GLabel 2400 5750 0    39   Input ~ 0
 G1
@@ -959,4 +960,32 @@ Text GLabel 2400 5650 0    39   Input ~ 0
 PWM
 Wire Wire Line
 	2400 5650 2600 5650
+Text GLabel 5750 6700 2    39   Input ~ 0
+IN_R
+Text GLabel 5750 6600 2    39   Input ~ 0
+IN_R
+Text GLabel 5750 6500 2    39   Input ~ 0
+MIC
+Text GLabel 5750 6400 2    39   Input ~ 0
+HP_R
+Text GLabel 5750 6300 2    39   Input ~ 0
+HP_L
+Wire Wire Line
+	5250 6700 5750 6700
+Wire Wire Line
+	5250 6600 5750 6600
+Wire Wire Line
+	5250 6500 5750 6500
+Wire Wire Line
+	5250 6400 5750 6400
+Wire Wire Line
+	5250 6300 5750 6300
+Text GLabel 5450 5750 2    39   Input ~ 0
+ADIN0
+Text GLabel 5450 5850 2    39   Input ~ 0
+ADIN1
+Wire Wire Line
+	5250 5750 5450 5750
+Wire Wire Line
+	5250 5850 5450 5850
 $EndSCHEMATC
