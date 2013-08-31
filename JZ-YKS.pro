@@ -1,21 +1,8 @@
-update=Пт. 30 авг. 2013 00:00:24
+update=Сб. 31 авг. 2013 12:37:16
 version=1
-last_client=pcbnew
+last_client=eeschema
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=lib
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
-[eeschema/libraries]
-LibName1=ingenic
-LibName2=device-small
-LibName3=power-selection
-LibName4=crystal
 [cvpcb]
 version=1
 NetIExt=net
@@ -44,5 +31,18 @@ ModuleOutlineThickness="    0,150000"
 LibDir=mod
 LibName1=crystal
 LibName2=smd
-LibName3=TP40x20
-LibName4=qfp-gen
+LibName3=qfp-gen
+[eeschema]
+version=1
+LibDir=lib
+NetFmtName=
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=39
+[eeschema/libraries]
+LibName1=ingenic
+LibName2=device-small
+LibName3=power-selection
+LibName4=crystal
+LibName5=PINHEAD30
