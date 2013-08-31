@@ -1,9 +1,10 @@
-EESchema Schematic File Version 2  date Сб. 31 авг. 2013 12:48:30
+EESchema Schematic File Version 2  date Сб. 31 авг. 2013 13:12:18
 LIBS:ingenic
 LIBS:device-small
 LIBS:power-selection
 LIBS:crystal
 LIBS:PINHEAD30
+LIBS:PINHEAD6
 LIBS:JZ-YKS-cache
 EELAYER 24 0
 EELAYER END
@@ -229,10 +230,10 @@ F 3 "~" H 5750 9100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1.8V #PWR22
+L +1.8V #PWR21
 U 1 1 521F76DA
 P 6400 8800
-F 0 "#PWR22" H 6400 8940 20  0001 C CNN
+F 0 "#PWR21" H 6400 8940 20  0001 C CNN
 F 1 "+1.8V" H 6400 8910 30  0000 C CNN
 F 2 "~" H 6400 8800 60  0000 C CNN
 F 3 "~" H 6400 8800 60  0000 C CNN
@@ -317,10 +318,10 @@ F 3 "~" H 6850 8000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR26
+L GND #PWR22
 U 1 1 521F7D7A
 P 7500 9100
-F 0 "#PWR26" H 7500 9100 30  0001 C CNN
+F 0 "#PWR22" H 7500 9100 30  0001 C CNN
 F 1 "GND" H 7500 9030 30  0001 C CNN
 F 2 "~" H 7500 9100 60  0000 C CNN
 F 3 "~" H 7500 9100 60  0000 C CNN
@@ -515,10 +516,10 @@ F 3 "~" H 6200 6900 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR21
+L +3.3V #PWR20
 U 1 1 521F9424
 P 6400 6900
-F 0 "#PWR21" H 6400 6860 30  0001 C CNN
+F 0 "#PWR20" H 6400 6860 30  0001 C CNN
 F 1 "+3.3V" H 6400 7010 30  0000 C CNN
 F 2 "~" H 6400 6900 60  0000 C CNN
 F 3 "~" H 6400 6900 60  0000 C CNN
@@ -938,4 +939,24 @@ Wire Wire Line
 	5450 3950 5250 3950
 Wire Wire Line
 	5250 4050 5450 4050
+Text GLabel 5450 5150 2    39   Input ~ 0
+SDA
+Text GLabel 5450 5250 2    39   Input ~ 0
+SCK
+Text GLabel 5450 5450 2    39   Input ~ 0
+TXD
+Text GLabel 5450 5550 2    39   Input ~ 0
+RXD
+Wire Wire Line
+	5250 5150 5450 5150
+Wire Wire Line
+	5250 5250 5450 5250
+Wire Wire Line
+	5250 5450 5450 5450
+Wire Wire Line
+	5250 5550 5450 5550
+Text GLabel 2400 5650 0    39   Input ~ 0
+PWM
+Wire Wire Line
+	2400 5650 2600 5650
 $EndSCHEMATC

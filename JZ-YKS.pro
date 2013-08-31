@@ -1,4 +1,4 @@
-update=Сб. 31 авг. 2013 12:37:16
+update=Сб. 31 авг. 2013 13:11:27
 version=1
 last_client=eeschema
 [general]
@@ -46,3 +46,4 @@ LibName2=device-small
 LibName3=power-selection
 LibName4=crystal
 LibName5=PINHEAD30
+LibName6=PINHEAD6
