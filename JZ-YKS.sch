@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Сб. 31 авг. 2013 14:45:48
+EESchema Schematic File Version 2  date Сб. 31 авг. 2013 14:50:21
 LIBS:ingenic
 LIBS:device-small
 LIBS:power-selection
@@ -962,8 +962,6 @@ Wire Wire Line
 	2400 5650 2600 5650
 Text GLabel 5750 6700 2    39   Input ~ 0
 IN_R
-Text GLabel 5750 6600 2    39   Input ~ 0
-IN_L
 Text GLabel 5750 6500 2    39   Input ~ 0
 MIC
 Text GLabel 5750 6400 2    39   Input ~ 0
@@ -972,8 +970,6 @@ Text GLabel 5750 6300 2    39   Input ~ 0
 HP_L
 Wire Wire Line
 	5250 6700 5750 6700
-Wire Wire Line
-	5250 6600 5750 6600
 Wire Wire Line
 	5250 6500 5750 6500
 Wire Wire Line
@@ -988,4 +984,8 @@ Wire Wire Line
 	5250 5750 5450 5750
 Wire Wire Line
 	5250 5850 5450 5850
+Wire Wire Line
+	5250 6600 5750 6600
+Text GLabel 5750 6600 2    39   Input ~ 0
+IN_L
 $EndSCHEMATC
