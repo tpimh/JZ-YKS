@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Сб. 31 авг. 2013 14:38:47
+EESchema Schematic File Version 2  date Сб. 31 авг. 2013 14:45:48
 LIBS:ingenic
 LIBS:device-small
 LIBS:power-selection
@@ -234,19 +234,19 @@ F 3 "~" H 6150 3550 60  0000 C CNN
 	1    6150 3550
 	0    1    1    0   
 $EndComp
-Text GLabel 6200 3650 0    39   Input ~ 0
-ADIN0
 Text GLabel 6200 3750 0    39   Input ~ 0
-ADIN1
+ADIN0
 Text GLabel 6200 3850 0    39   Input ~ 0
-HP_L
+ADIN1
 Text GLabel 6200 3950 0    39   Input ~ 0
-HP_R
+HP_L
 Text GLabel 6200 4050 0    39   Input ~ 0
-IN_L
+HP_R
 Text GLabel 6200 4150 0    39   Input ~ 0
-IN_R
+IN_L
 Text GLabel 6200 4250 0    39   Input ~ 0
+IN_R
+Text GLabel 6200 3650 0    39   Input ~ 0
 MIC
 Wire Wire Line
 	6150 3550 6350 3550

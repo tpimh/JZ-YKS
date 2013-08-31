@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Сб. 31 авг. 2013 13:16:31
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Сб. 31 авг. 2013 14:40:18
 
 BeginCmp
 TimeStamp = /521FAF2E;
@@ -236,6 +236,13 @@ TimeStamp = /5221BD3F/5221C63E;
 Reference = U2;
 ValeurCmp = PINHEAD6;
 IdModule  = pinhead-double-2.54mm-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /5221BD3F/5221D3FD;
+Reference = U3;
+ValeurCmp = PINHEAD8;
+IdModule  = pinhead-double-2.54mm-8;
 EndCmp
 
 BeginCmp
