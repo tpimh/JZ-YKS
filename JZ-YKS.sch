@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Сб. 31 авг. 2013 14:50:21
+EESchema Schematic File Version 2  date Пт. 06 сент. 2013 22:15:16
 LIBS:ingenic
 LIBS:device-small
 LIBS:power-selection
@@ -6,6 +6,7 @@ LIBS:crystal
 LIBS:PINHEAD30
 LIBS:PINHEAD6
 LIBS:PINHEAD8
+LIBS:usb_minib
 LIBS:JZ-YKS-cache
 EELAYER 24 0
 EELAYER END
@@ -13,7 +14,7 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 1 2
 Title ""
-Date "31 aug 2013"
+Date "6 sep 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -319,10 +320,10 @@ F 3 "~" H 6850 8000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR22
+L GND #PWR24
 U 1 1 521F7D7A
 P 7500 9100
-F 0 "#PWR22" H 7500 9100 30  0001 C CNN
+F 0 "#PWR24" H 7500 9100 30  0001 C CNN
 F 1 "GND" H 7500 9030 30  0001 C CNN
 F 2 "~" H 7500 9100 60  0000 C CNN
 F 3 "~" H 7500 9100 60  0000 C CNN
@@ -638,7 +639,7 @@ F 3 "~" H 2400 9150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 6550 1800 1100 2300
+S 6500 650  1100 2300
 U 5221BD3F
 F0 "connectors" 50
 F1 "connectors.sch" 50
@@ -651,6 +652,202 @@ Text GLabel 2400 5950 0    39   Input ~ 0
 R1
 Text GLabel 2400 6050 0    39   Input ~ 0
 G0
+Text GLabel 5450 1950 2    39   Input ~ 0
+B2
+Text GLabel 5450 2050 2    39   Input ~ 0
+B3
+Text GLabel 5450 2150 2    39   Input ~ 0
+B4
+Text GLabel 5450 2250 2    39   Input ~ 0
+B5
+Text GLabel 5450 2350 2    39   Input ~ 0
+B6
+Text GLabel 5450 2450 2    39   Input ~ 0
+B7
+Text GLabel 5450 2550 2    39   Input ~ 0
+G2
+Text GLabel 5450 2650 2    39   Input ~ 0
+G3
+Text GLabel 5450 2750 2    39   Input ~ 0
+G4
+Text GLabel 5450 2850 2    39   Input ~ 0
+G5
+Text GLabel 5450 2950 2    39   Input ~ 0
+G6
+Text GLabel 5450 3050 2    39   Input ~ 0
+G7
+Text GLabel 5450 3150 2    39   Input ~ 0
+R2
+Text GLabel 5450 3250 2    39   Input ~ 0
+R3
+Text GLabel 5450 3350 2    39   Input ~ 0
+R4
+Text GLabel 5450 3450 2    39   Input ~ 0
+R5
+Text GLabel 5450 3550 2    39   Input ~ 0
+R6
+Text GLabel 5450 3650 2    39   Input ~ 0
+R7
+Text GLabel 5450 3750 2    39   Input ~ 0
+PCLK
+Text GLabel 5450 3850 2    39   Input ~ 0
+HSYN
+Text GLabel 5450 3950 2    39   Input ~ 0
+VSYN
+Text GLabel 5450 4050 2    39   Input ~ 0
+DE
+Text GLabel 5450 5150 2    39   Input ~ 0
+SDA
+Text GLabel 5450 5250 2    39   Input ~ 0
+SCK
+Text GLabel 5450 5450 2    39   Input ~ 0
+TXD
+Text GLabel 5450 5550 2    39   Input ~ 0
+RXD
+Text GLabel 2400 5650 0    39   Input ~ 0
+PWM
+Text GLabel 5750 6700 2    39   Input ~ 0
+IN_R
+Text GLabel 5750 6500 2    39   Input ~ 0
+MIC
+Text GLabel 5750 6400 2    39   Input ~ 0
+HP_R
+Text GLabel 5750 6300 2    39   Input ~ 0
+HP_L
+Text GLabel 5450 5750 2    39   Input ~ 0
+ADIN0
+Text GLabel 5450 5850 2    39   Input ~ 0
+ADIN1
+Text GLabel 5750 6600 2    39   Input ~ 0
+IN_L
+$Comp
+L USB_MINIB J1
+U 1 1 5221E0C3
+P 7200 4300
+F 0 "J1" H 7000 4500 60  0000 C CNN
+F 1 "USB_MINIB" H 7400 4500 60  0000 C CNN
+F 2 "" H 7200 4300 60  0000 C CNN
+F 3 "" H 7200 4300 60  0000 C CNN
+	1    7200 4300
+	-1   0    0    1   
+$EndComp
+NoConn ~ 6950 4250
+$Comp
+L CSMALL C20
+U 1 1 5221E41B
+P 7200 3900
+F 0 "C20" H 7225 3950 30  0000 L CNN
+F 1 "CSMALL" H 7225 3850 30  0000 L CNN
+F 2 "~" H 7200 3900 60  0000 C CNN
+F 3 "~" H 7200 3900 60  0000 C CNN
+	1    7200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L FBSMALL FB8
+U 1 1 5221E42A
+P 7350 3900
+F 0 "FB8" H 7375 3950 30  0000 L CNN
+F 1 "FBSMALL" H 7375 3850 30  0000 L CNN
+F 2 "~" H 7350 3900 60  0000 C CNN
+F 3 "~" H 7350 3900 60  0000 C CNN
+	1    7350 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR23
+U 1 1 5221E4E1
+P 6900 3950
+F 0 "#PWR23" H 6900 4050 30  0001 C CNN
+F 1 "GND" H 6900 3880 30  0001 C CNN
+F 2 "~" H 6900 3950 60  0000 C CNN
+F 3 "~" H 6900 3950 60  0000 C CNN
+	1    6900 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L VCC #PWR22
+U 1 1 5221E7A1
+P 6800 4400
+F 0 "#PWR22" H 6800 4550 30  0001 C CNN
+F 1 "VCC" H 6800 4510 30  0000 C CNN
+F 2 "~" H 6800 4400 60  0000 C CNN
+F 3 "~" H 6800 4400 60  0000 C CNN
+	1    6800 4400
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2400 7950 0    39   Input ~ 0
+SD_CLK
+Text GLabel 2400 8050 0    39   Input ~ 0
+SD_CMD
+Text GLabel 2400 8150 0    39   Input ~ 0
+SD_DO
+Text GLabel 2400 5350 0    39   Input ~ 0
+A16
+Text GLabel 2400 5250 0    39   Input ~ 0
+A15
+Text GLabel 2400 5150 0    39   Input ~ 0
+A14
+Text GLabel 2400 5050 0    39   Input ~ 0
+A13
+Text GLabel 2400 4950 0    39   Input ~ 0
+A12
+Text GLabel 2400 4850 0    39   Input ~ 0
+A11
+Text GLabel 2400 4750 0    39   Input ~ 0
+A10
+Text GLabel 2400 4650 0    39   Input ~ 0
+A9
+Text GLabel 2400 4550 0    39   Input ~ 0
+A8
+Text GLabel 2400 4450 0    39   Input ~ 0
+A7
+Text GLabel 2400 4350 0    39   Input ~ 0
+A6
+Text GLabel 2400 4250 0    39   Input ~ 0
+A5
+Text GLabel 2400 4150 0    39   Input ~ 0
+A4
+Text GLabel 2400 4050 0    39   Input ~ 0
+A3
+Text GLabel 2400 3950 0    39   Input ~ 0
+A2
+Text GLabel 2400 3850 0    39   Input ~ 0
+A1
+Text GLabel 2400 3750 0    39   Input ~ 0
+A0
+Text GLabel 2400 3450 0    39   Input ~ 0
+D15
+Text GLabel 2400 3350 0    39   Input ~ 0
+D14
+Text GLabel 2400 3250 0    39   Input ~ 0
+D13
+Text GLabel 2400 3150 0    39   Input ~ 0
+D12
+Text GLabel 2400 3050 0    39   Input ~ 0
+D11
+Text GLabel 2400 2950 0    39   Input ~ 0
+D10
+Text GLabel 2400 2850 0    39   Input ~ 0
+D9
+Text GLabel 2400 2750 0    39   Input ~ 0
+D8
+Text GLabel 2400 2650 0    39   Input ~ 0
+D7
+Text GLabel 2400 2550 0    39   Input ~ 0
+D6
+Text GLabel 2400 2450 0    39   Input ~ 0
+D5
+Text GLabel 2400 2350 0    39   Input ~ 0
+D4
+Text GLabel 2400 2250 0    39   Input ~ 0
+D3
+Text GLabel 2400 2150 0    39   Input ~ 0
+D2
+Text GLabel 2400 2050 0    39   Input ~ 0
+D1
+Text GLabel 2400 1950 0    39   Input ~ 0
+D0
 Wire Wire Line
 	3800 9400 4200 9400
 Wire Wire Line
@@ -852,50 +1049,6 @@ Wire Wire Line
 	2400 5950 2600 5950
 Wire Wire Line
 	2400 6050 2600 6050
-Text GLabel 5450 1950 2    39   Input ~ 0
-B2
-Text GLabel 5450 2050 2    39   Input ~ 0
-B3
-Text GLabel 5450 2150 2    39   Input ~ 0
-B4
-Text GLabel 5450 2250 2    39   Input ~ 0
-B5
-Text GLabel 5450 2350 2    39   Input ~ 0
-B6
-Text GLabel 5450 2450 2    39   Input ~ 0
-B7
-Text GLabel 5450 2550 2    39   Input ~ 0
-G2
-Text GLabel 5450 2650 2    39   Input ~ 0
-G3
-Text GLabel 5450 2750 2    39   Input ~ 0
-G4
-Text GLabel 5450 2850 2    39   Input ~ 0
-G5
-Text GLabel 5450 2950 2    39   Input ~ 0
-G6
-Text GLabel 5450 3050 2    39   Input ~ 0
-G7
-Text GLabel 5450 3150 2    39   Input ~ 0
-R2
-Text GLabel 5450 3250 2    39   Input ~ 0
-R3
-Text GLabel 5450 3350 2    39   Input ~ 0
-R4
-Text GLabel 5450 3450 2    39   Input ~ 0
-R5
-Text GLabel 5450 3550 2    39   Input ~ 0
-R6
-Text GLabel 5450 3650 2    39   Input ~ 0
-R7
-Text GLabel 5450 3750 2    39   Input ~ 0
-PCLK
-Text GLabel 5450 3850 2    39   Input ~ 0
-HSYN
-Text GLabel 5450 3950 2    39   Input ~ 0
-VSYN
-Text GLabel 5450 4050 2    39   Input ~ 0
-DE
 Wire Wire Line
 	5250 1950 5450 1950
 Wire Wire Line
@@ -940,14 +1093,6 @@ Wire Wire Line
 	5450 3950 5250 3950
 Wire Wire Line
 	5250 4050 5450 4050
-Text GLabel 5450 5150 2    39   Input ~ 0
-SDA
-Text GLabel 5450 5250 2    39   Input ~ 0
-SCK
-Text GLabel 5450 5450 2    39   Input ~ 0
-TXD
-Text GLabel 5450 5550 2    39   Input ~ 0
-RXD
 Wire Wire Line
 	5250 5150 5450 5150
 Wire Wire Line
@@ -956,18 +1101,8 @@ Wire Wire Line
 	5250 5450 5450 5450
 Wire Wire Line
 	5250 5550 5450 5550
-Text GLabel 2400 5650 0    39   Input ~ 0
-PWM
 Wire Wire Line
 	2400 5650 2600 5650
-Text GLabel 5750 6700 2    39   Input ~ 0
-IN_R
-Text GLabel 5750 6500 2    39   Input ~ 0
-MIC
-Text GLabel 5750 6400 2    39   Input ~ 0
-HP_R
-Text GLabel 5750 6300 2    39   Input ~ 0
-HP_L
 Wire Wire Line
 	5250 6700 5750 6700
 Wire Wire Line
@@ -976,16 +1111,114 @@ Wire Wire Line
 	5250 6400 5750 6400
 Wire Wire Line
 	5250 6300 5750 6300
-Text GLabel 5450 5750 2    39   Input ~ 0
-ADIN0
-Text GLabel 5450 5850 2    39   Input ~ 0
-ADIN1
 Wire Wire Line
 	5250 5750 5450 5750
 Wire Wire Line
 	5250 5850 5450 5850
 Wire Wire Line
 	5250 6600 5750 6600
-Text GLabel 5750 6600 2    39   Input ~ 0
-IN_L
+Wire Wire Line
+	5250 4300 6950 4300
+Wire Wire Line
+	6950 4350 5350 4350
+Wire Wire Line
+	5350 4350 5350 4400
+Wire Wire Line
+	5350 4400 5250 4400
+Wire Wire Line
+	7200 4000 7200 4100
+Wire Wire Line
+	7200 4050 7350 4050
+Wire Wire Line
+	7350 4000 7350 4100
+Wire Wire Line
+	7250 4100 7250 4050
+Connection ~ 7250 4050
+Wire Wire Line
+	7300 4100 7300 4050
+Connection ~ 7300 4050
+Wire Wire Line
+	6950 3800 7350 3800
+Wire Wire Line
+	6950 3800 6950 4200
+Wire Wire Line
+	6950 3950 6900 3950
+Connection ~ 7200 3800
+Connection ~ 6950 3950
+Connection ~ 7200 4050
+Connection ~ 7350 4050
+Wire Wire Line
+	6800 4400 6950 4400
+Wire Wire Line
+	2400 7950 2600 7950
+Wire Wire Line
+	2400 8050 2600 8050
+Wire Wire Line
+	2400 8150 2600 8150
+Wire Wire Line
+	2400 1950 2600 1950
+Wire Wire Line
+	2400 2050 2600 2050
+Wire Wire Line
+	2400 2150 2600 2150
+Wire Wire Line
+	2400 2250 2600 2250
+Wire Wire Line
+	2400 2350 2600 2350
+Wire Wire Line
+	2400 2450 2600 2450
+Wire Wire Line
+	2400 2550 2600 2550
+Wire Wire Line
+	2400 2650 2600 2650
+Wire Wire Line
+	2400 2750 2600 2750
+Wire Wire Line
+	2400 2850 2600 2850
+Wire Wire Line
+	2400 2950 2600 2950
+Wire Wire Line
+	2400 3050 2600 3050
+Wire Wire Line
+	2400 3150 2600 3150
+Wire Wire Line
+	2400 3250 2600 3250
+Wire Wire Line
+	2400 3350 2600 3350
+Wire Wire Line
+	2400 3450 2600 3450
+Wire Wire Line
+	2400 3750 2600 3750
+Wire Wire Line
+	2400 3850 2600 3850
+Wire Wire Line
+	2400 3950 2600 3950
+Wire Wire Line
+	2400 4050 2600 4050
+Wire Wire Line
+	2400 4150 2600 4150
+Wire Wire Line
+	2400 4250 2600 4250
+Wire Wire Line
+	2400 4350 2600 4350
+Wire Wire Line
+	2400 4450 2600 4450
+Wire Wire Line
+	2400 4550 2600 4550
+Wire Wire Line
+	2400 4650 2600 4650
+Wire Wire Line
+	2400 4750 2600 4750
+Wire Wire Line
+	2400 4850 2600 4850
+Wire Wire Line
+	2400 4950 2600 4950
+Wire Wire Line
+	2400 5050 2600 5050
+Wire Wire Line
+	2400 5150 2600 5150
+Wire Wire Line
+	2400 5250 2600 5250
+Wire Wire Line
+	2400 5350 2600 5350
 $EndSCHEMATC
