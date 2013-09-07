@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Сб. 07 сент. 2013 14:12:31
+EESchema Schematic File Version 2  date Сб. 07 сент. 2013 14:16:11
 LIBS:ingenic
 LIBS:device-small
 LIBS:power-selection
