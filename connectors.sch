@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Пт. 06 сент. 2013 22:27:52
+EESchema Schematic File Version 2  date Сб. 07 сент. 2013 14:12:31
 LIBS:ingenic
 LIBS:device-small
 LIBS:power-selection
@@ -16,7 +16,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
 Title ""
-Date "6 sep 2013"
+Date "7 sep 2013"
 Rev ""
 Comp ""
 Comment1 ""

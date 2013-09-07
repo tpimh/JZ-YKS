@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Пт. 06 сент. 2013 22:27:52
+EESchema Schematic File Version 2  date Сб. 07 сент. 2013 14:12:31
 LIBS:ingenic
 LIBS:device-small
 LIBS:power-selection
@@ -16,7 +16,7 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 1 3
 Title ""
-Date "6 sep 2013"
+Date "7 sep 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1229,4 +1229,60 @@ U 522A2DE0
 F0 "memory" 50
 F1 "memory.sch" 50
 $EndSheet
+Text GLabel 2400 6450 0    39   Input ~ 0
+WE0
+Text GLabel 2400 6550 0    39   Input ~ 0
+WE1
+Text GLabel 2400 7650 0    39   Input ~ 0
+CKO
+Text GLabel 2400 7750 0    39   Input ~ 0
+CKE
+Text GLabel 2400 7350 0    39   Input ~ 0
+RAS
+Text GLabel 2400 7450 0    39   Input ~ 0
+CAS
+Text GLabel 2400 7250 0    39   Input ~ 0
+DCS
+Text GLabel 2400 7550 0    39   Input ~ 0
+RDWR
+Wire Wire Line
+	2400 7750 2600 7750
+Wire Wire Line
+	2400 7650 2600 7650
+Wire Wire Line
+	2400 7550 2600 7550
+Wire Wire Line
+	2400 7450 2600 7450
+Wire Wire Line
+	2400 7350 2600 7350
+Wire Wire Line
+	2400 7250 2600 7250
+Wire Wire Line
+	2400 6450 2600 6450
+Wire Wire Line
+	2400 6550 2600 6550
+Text GLabel 2400 6250 0    39   Input ~ 0
+CS1
+Text GLabel 2400 6350 0    39   Input ~ 0
+CS2
+Wire Wire Line
+	2400 6250 2600 6250
+Wire Wire Line
+	2400 6350 2600 6350
+Text GLabel 2400 6950 0    39   Input ~ 0
+FWE
+Text GLabel 2400 6850 0    39   Input ~ 0
+FRE
+Wire Wire Line
+	2400 6850 2600 6850
+Wire Wire Line
+	2400 6950 2600 6950
+Text GLabel 2400 7050 0    39   Input ~ 0
+FRB
+Wire Wire Line
+	2400 7050 2600 7050
+Text GLabel 2400 6750 0    39   Input ~ 0
+SD_CD
+Wire Wire Line
+	2400 6750 2600 6750
 $EndSCHEMATC
