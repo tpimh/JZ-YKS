@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.3  Date: Чт. 29 авг. 2013 19:26:46
 #encoding utf-8
 #
-# Csmall
+# C
 #
-DEF Csmall C 0 10 N Y 1 F N
+DEF C C 0 10 N Y 1 F N
 F0 "C" 25 50 30 H V L CNN
-F1 "Csmall" 25 -50 30 H V L CNN
+F1 "C" 25 -50 30 H V L CNN
 F2 "~" 0 0 60 H V C CNN
 F3 "~" 0 0 60 H V C CNN
 $FPLIST
@@ -21,11 +21,11 @@ X ~ 2 0 -100 90 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# FBsmall
+# FB
 #
-DEF FBsmall FB 0 0 N N 1 F N
+DEF FB FB 0 0 N N 1 F N
 F0 "FB" 25 50 30 H V L CNN
-F1 "FBsmall" 25 -50 30 H V L CNN
+F1 "FB" 25 -50 30 H V L CNN
 F2 "~" 0 0 60 H V C CNN
 F3 "~" 0 0 60 H V C CNN
 DRAW
@@ -35,11 +35,11 @@ X ~ 2 0 -100 74 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Rsmall
+# R
 #
-DEF Rsmall R 0 0 N N 1 F N
+DEF R R 0 0 N N 1 F N
 F0 "R" 25 50 30 H V L CNN
-F1 "Rsmall" 25 -50 30 H V L CNN
+F1 "R" 25 -50 30 H V L CNN
 F2 "~" 0 0 60 H V C CNN
 F3 "~" 0 0 60 H V C CNN
 DRAW

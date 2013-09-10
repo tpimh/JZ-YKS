@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Сб. 07 сент. 2013 14:16:11
+EESchema Schematic File Version 2  date Вт. 10 сент. 2013 13:38:49
 LIBS:ingenic
 LIBS:device-small
 LIBS:power-selection
@@ -16,7 +16,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
 Title ""
-Date "7 sep 2013"
+Date "10 sep 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -106,14 +106,6 @@ Wire Wire Line
 Wire Wire Line
 	8400 3200 8600 3200
 Wire Wire Line
-	8400 5100 8600 5100
-Wire Wire Line
-	8400 5000 8600 5000
-Wire Wire Line
-	8400 4900 8600 4900
-Wire Wire Line
-	8400 4800 8600 4800
-Wire Wire Line
 	8400 4700 8600 4700
 Wire Wire Line
 	8400 4600 8600 4600
@@ -142,10 +134,10 @@ Wire Wire Line
 Wire Wire Line
 	8400 3300 8600 3300
 $Comp
-L GND #PWR29
+L GND #PWR025
 U 1 1 5221C429
 P 8350 2200
-F 0 "#PWR29" H 8350 2300 30  0001 C CNN
+F 0 "#PWR025" H 8350 2300 30  0001 C CNN
 F 1 "GND" H 8350 2130 30  0001 C CNN
 F 2 "~" H 8350 2200 60  0000 C CNN
 F 3 "~" H 8350 2200 60  0000 C CNN
@@ -153,10 +145,10 @@ F 3 "~" H 8350 2200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR30
+L +3.3V #PWR026
 U 1 1 5221C438
 P 8350 2300
-F 0 "#PWR30" H 8350 2450 30  0001 C CNN
+F 0 "#PWR026" H 8350 2450 30  0001 C CNN
 F 1 "+3.3V" H 8350 2410 30  0000 C CNN
 F 2 "~" H 8350 2300 60  0000 C CNN
 F 3 "~" H 8350 2300 60  0000 C CNN
@@ -167,159 +159,75 @@ Wire Wire Line
 	8350 2200 8600 2200
 Wire Wire Line
 	8350 2300 8600 2300
+Text GLabel 6050 3400 0    39   Input ~ 0
+SDA
+Text GLabel 6050 3500 0    39   Input ~ 0
+SCK
+Text GLabel 6050 3600 0    39   Input ~ 0
+TXD
+Text GLabel 6050 3700 0    39   Input ~ 0
+RXD
+Text GLabel 6050 3300 0    39   Input ~ 0
+PWM
+Text Notes 8900 2000 0    39   ~ 0
+LCD
+Text GLabel 6050 2600 0    39   Input ~ 0
+ADIN0
+Text GLabel 6050 2700 0    39   Input ~ 0
+ADIN1
+Text GLabel 6050 2800 0    39   Input ~ 0
+HP_L
+Text GLabel 6050 2900 0    39   Input ~ 0
+HP_R
+Text GLabel 6050 3000 0    39   Input ~ 0
+IN_L
+Text GLabel 6050 3100 0    39   Input ~ 0
+IN_R
+Text GLabel 6050 2500 0    39   Input ~ 0
+MIC
+Text GLabel 6050 3900 0    39   Input ~ 0
+SD_CD
+Text GLabel 6050 4000 0    39   Input ~ 0
+SD_CLK
+Text GLabel 6050 4100 0    39   Input ~ 0
+SD_CMD
+Text GLabel 6050 4200 0    39   Input ~ 0
+SD_DO
 $Comp
-L GND #PWR25
-U 1 1 5221C625
+L PINHEAD30 U?
+U 1 1 522EF80C
+P 7000 3650
+F 0 "U?" H 7000 3550 50  0000 C CNN
+F 1 "PINHEAD30" H 7000 3750 50  0000 C CNN
+F 2 "MODULE" H 7000 3650 50  0001 C CNN
+F 3 "DOCUMENTATION" H 7000 3650 50  0001 C CNN
+	1    7000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 522EF819
 P 6050 2200
-F 0 "#PWR25" H 6050 2300 30  0001 C CNN
+F 0 "#PWR?" H 6050 2300 30  0001 C CNN
 F 1 "GND" H 6050 2130 30  0001 C CNN
 F 2 "~" H 6050 2200 60  0000 C CNN
 F 3 "~" H 6050 2200 60  0000 C CNN
 	1    6050 2200
 	0    1    1    0   
 $EndComp
-Text GLabel 6150 2400 0    39   Input ~ 0
-SDA
-Text GLabel 6150 2500 0    39   Input ~ 0
-SCK
-Text GLabel 6150 2600 0    39   Input ~ 0
-TXD
-Text GLabel 6150 2700 0    39   Input ~ 0
-RXD
-Text GLabel 6150 2300 0    39   Input ~ 0
-PWM
 $Comp
-L PINHEAD6 U2
-U 1 1 5221C63E
-P 7100 2450
-F 0 "U2" H 7100 2350 50  0000 C CNN
-F 1 "PINHEAD6" H 7100 2550 50  0000 C CNN
-F 2 "MODULE" H 7100 2450 50  0001 C CNN
-F 3 "DOCUMENTATION" H 7100 2450 50  0001 C CNN
-	1    7100 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6150 2700 6350 2700
-Wire Wire Line
-	6150 2600 6350 2600
-Wire Wire Line
-	6150 2500 6350 2500
-Wire Wire Line
-	6150 2400 6350 2400
-Wire Wire Line
-	6150 2300 6350 2300
-Wire Wire Line
-	6050 2200 6350 2200
-Text Notes 8900 2000 0    39   ~ 0
-LCD
-Text Notes 6650 2000 0    39   ~ 0
-I2C & UART
-$Comp
-L PINHEAD8 U3
-U 1 1 5221D3FD
-P 7100 3900
-F 0 "U3" H 7100 3800 50  0000 C CNN
-F 1 "PINHEAD8" H 7100 4000 50  0000 C CNN
-F 2 "MODULE" H 7100 3900 50  0001 C CNN
-F 3 "DOCUMENTATION" H 7100 3900 50  0001 C CNN
-	1    7100 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR28
-U 1 1 5221D40C
-P 6150 3550
-F 0 "#PWR28" H 6150 3650 30  0001 C CNN
-F 1 "GND" H 6150 3480 30  0001 C CNN
-F 2 "~" H 6150 3550 60  0000 C CNN
-F 3 "~" H 6150 3550 60  0000 C CNN
-	1    6150 3550
-	0    1    1    0   
-$EndComp
-Text GLabel 6200 3750 0    39   Input ~ 0
-ADIN0
-Text GLabel 6200 3850 0    39   Input ~ 0
-ADIN1
-Text GLabel 6200 3950 0    39   Input ~ 0
-HP_L
-Text GLabel 6200 4050 0    39   Input ~ 0
-HP_R
-Text GLabel 6200 4150 0    39   Input ~ 0
-IN_L
-Text GLabel 6200 4250 0    39   Input ~ 0
-IN_R
-Text GLabel 6200 3650 0    39   Input ~ 0
-MIC
-Wire Wire Line
-	6150 3550 6350 3550
-Wire Wire Line
-	6200 3650 6350 3650
-Wire Wire Line
-	6200 3750 6350 3750
-Wire Wire Line
-	6200 3850 6350 3850
-Wire Wire Line
-	6200 3950 6350 3950
-Wire Wire Line
-	6200 4050 6350 4050
-Wire Wire Line
-	6200 4150 6350 4150
-Wire Wire Line
-	6200 4250 6350 4250
-Text Notes 6650 3350 0    39   ~ 0
-AUDIO
-$Comp
-L PINHEAD6 U6
-U 1 1 522B0CC0
-P 7100 5750
-F 0 "U6" H 7100 5650 50  0000 C CNN
-F 1 "PINHEAD6" H 7100 5850 50  0000 C CNN
-F 2 "MODULE" H 7100 5750 50  0001 C CNN
-F 3 "DOCUMENTATION" H 7100 5750 50  0001 C CNN
-	1    7100 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR26
-U 1 1 522B0CCF
-P 6050 5500
-F 0 "#PWR26" H 6050 5650 30  0001 C CNN
-F 1 "+3.3V" H 6050 5610 30  0000 C CNN
-F 2 "~" H 6050 5500 60  0000 C CNN
-F 3 "~" H 6050 5500 60  0000 C CNN
-	1    6050 5500
+L +3.3V #PWR?
+U 1 1 522EF81F
+P 5950 2300
+F 0 "#PWR?" H 5950 2450 30  0001 C CNN
+F 1 "+3.3V" H 5950 2410 30  0000 C CNN
+F 2 "~" H 5950 2300 60  0000 C CNN
+F 3 "~" H 5950 2300 60  0000 C CNN
+	1    5950 2300
 	0    -1   -1   0   
 $EndComp
-$Comp
-L GND #PWR27
-U 1 1 522B0CDE
-P 6050 6000
-F 0 "#PWR27" H 6050 6100 30  0001 C CNN
-F 1 "GND" H 6050 5930 30  0001 C CNN
-F 2 "~" H 6050 6000 60  0000 C CNN
-F 3 "~" H 6050 6000 60  0000 C CNN
-	1    6050 6000
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	6050 5500 6350 5500
+	6050 2200 6250 2200
 Wire Wire Line
-	6050 6000 6350 6000
-Text GLabel 6250 5600 0    39   Input ~ 0
-SD_CD
-Text GLabel 6250 5700 0    39   Input ~ 0
-SD_CLK
-Text GLabel 6250 5800 0    39   Input ~ 0
-SD_CMD
-Text GLabel 6250 5900 0    39   Input ~ 0
-SD_DO
-Wire Wire Line
-	6250 5600 6350 5600
-Wire Wire Line
-	6250 5700 6350 5700
-Wire Wire Line
-	6250 5800 6350 5800
-Wire Wire Line
-	6250 5900 6350 5900
+	5950 2300 6250 2300
 $EndSCHEMATC
