@@ -1,8 +1,6 @@
-update=Пт. 06 сент. 2013 22:28:12
+update=Вт. 10 сент. 2013 13:56:20
 version=1
-last_client=pcbnew
-[general]
-version=1
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -22,11 +20,9 @@ LibName2=device-small
 LibName3=power-selection
 LibName4=crystal
 LibName5=PINHEAD30
-LibName6=PINHEAD6
-LibName7=PINHEAD8
-LibName8=usb_minib
-LibName9=hy27ug088g5m
-LibName10=p3v56s40etp-g6
+LibName6=usb_minib
+LibName7=hy27ug088g5m
+LibName8=p3v56s40etp-g6
 [pcbnew]
 version=1
 LastNetListRead=JZ-YKS.net
@@ -51,9 +47,9 @@ LibDir=mod
 LibName1=crystal
 LibName2=smd
 LibName3=qfp-gen
-LibName4=pinhead-6
-LibName5=pinhead-30
-LibName6=pinhead-8
-LibName7=CON_USB_MB
-LibName8=TSOP48
-LibName9=TSOP54
+LibName4=pinhead-30
+LibName5=CON_USB_MB
+LibName6=TSOP48
+LibName7=TSOP54
+[general]
+version=1
