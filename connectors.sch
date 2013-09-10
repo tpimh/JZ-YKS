@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Вт. 10 сент. 2013 13:48:21
+EESchema Schematic File Version 2
 LIBS:ingenic
 LIBS:device-small
 LIBS:power-selection
@@ -7,6 +7,7 @@ LIBS:PINHEAD30
 LIBS:usb_minib
 LIBS:hy27ug088g5m
 LIBS:p3v56s40etp-g6
+LIBS:JZ-YKS-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
@@ -86,50 +87,6 @@ F 3 "DOCUMENTATION" H 9350 3650 50  0001 C CNN
 	1    9350 3650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8400 2500 8600 2500
-Wire Wire Line
-	8400 2600 8600 2600
-Wire Wire Line
-	8400 2700 8600 2700
-Wire Wire Line
-	8400 2800 8600 2800
-Wire Wire Line
-	8400 2900 8600 2900
-Wire Wire Line
-	8400 3000 8600 3000
-Wire Wire Line
-	8400 3100 8600 3100
-Wire Wire Line
-	8400 3200 8600 3200
-Wire Wire Line
-	8400 4700 8600 4700
-Wire Wire Line
-	8400 4600 8600 4600
-Wire Wire Line
-	8400 4500 8600 4500
-Wire Wire Line
-	8400 4400 8600 4400
-Wire Wire Line
-	8400 4300 8600 4300
-Wire Wire Line
-	8400 4200 8600 4200
-Wire Wire Line
-	8400 4100 8600 4100
-Wire Wire Line
-	8400 3900 8600 3900
-Wire Wire Line
-	8400 3800 8600 3800
-Wire Wire Line
-	8400 3700 8600 3700
-Wire Wire Line
-	8400 3600 8600 3600
-Wire Wire Line
-	8400 3500 8600 3500
-Wire Wire Line
-	8400 3400 8600 3400
-Wire Wire Line
-	8400 3300 8600 3300
 $Comp
 L GND #PWR27
 U 1 1 5221C429

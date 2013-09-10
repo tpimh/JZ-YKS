@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Вт. 10 сент. 2013 13:48:21
+EESchema Schematic File Version 2
 LIBS:ingenic
 LIBS:device-small
 LIBS:power-selection
@@ -7,6 +7,7 @@ LIBS:PINHEAD30
 LIBS:usb_minib
 LIBS:hy27ug088g5m
 LIBS:p3v56s40etp-g6
+LIBS:JZ-YKS-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
