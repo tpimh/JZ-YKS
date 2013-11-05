@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Сб. 14 сент. 2013 12:00:17
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Вт. 05 нояб. 2013 17:52:04
 
 BeginCmp
 TimeStamp = /521FAF2E;
@@ -197,6 +197,27 @@ IdModule  = size-0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /524165FB;
+Reference = C29;
+ValeurCmp = C;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5241660A;
+Reference = C30;
+ValeurCmp = C;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52416619;
+Reference = C31;
+ValeurCmp = C;
+IdModule  = size-0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /521F6C57;
 Reference = FB1;
 ValeurCmp = BKP1608HS121;
@@ -327,6 +348,13 @@ TimeStamp = /5221BD3F/522EF80C;
 Reference = U2;
 ValeurCmp = PINHEAD30;
 IdModule  = PINHEAD30;
+EndCmp
+
+BeginCmp
+TimeStamp = /5241656A;
+Reference = U3;
+ValeurCmp = VREG-DUAL;
+IdModule  = sot23-6;
 EndCmp
 
 BeginCmp
