@@ -1,12 +1,12 @@
 EESchema Schematic File Version 2
-LIBS:ingenic
-LIBS:device-small
-LIBS:power-selection
 LIBS:crystal
-LIBS:PINHEAD30
-LIBS:usb_minib
+LIBS:device-small
 LIBS:hy27ug088g5m
+LIBS:ingenic
 LIBS:p3v56s40etp-g6
+LIBS:PINHEAD30
+LIBS:power-selection
+LIBS:usb_minib
 LIBS:vreg
 LIBS:JZ-YKS-cache
 EELAYER 24 0

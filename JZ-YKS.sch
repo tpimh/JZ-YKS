@@ -1,12 +1,12 @@
 EESchema Schematic File Version 2
-LIBS:ingenic
-LIBS:device-small
-LIBS:power-selection
 LIBS:crystal
-LIBS:PINHEAD30
-LIBS:usb_minib
+LIBS:device-small
 LIBS:hy27ug088g5m
+LIBS:ingenic
 LIBS:p3v56s40etp-g6
+LIBS:PINHEAD30
+LIBS:power-selection
+LIBS:usb_minib
 LIBS:vreg
 LIBS:JZ-YKS-cache
 EELAYER 24 0
@@ -690,28 +690,6 @@ F 3 "" H 7200 4300 60  0000 C CNN
 $EndComp
 NoConn ~ 6950 4250
 $Comp
-L C C20
-U 1 1 5221E41B
-P 7200 3900
-F 0 "C20" H 7225 3950 30  0000 L CNN
-F 1 "C" H 7225 3850 30  0000 L CNN
-F 2 "~" H 7200 3900 60  0000 C CNN
-F 3 "~" H 7200 3900 60  0000 C CNN
-	1    7200 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L FB FB8
-U 1 1 5221E42A
-P 7350 3900
-F 0 "FB8" H 7375 3950 30  0000 L CNN
-F 1 "BKP1608HS121" H 7375 3850 30  0000 L CNN
-F 2 "~" H 7350 3900 60  0000 C CNN
-F 3 "~" H 7350 3900 60  0000 C CNN
-	1    7350 3900
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR27
 U 1 1 5221E4E1
 P 6900 3950
@@ -1236,11 +1214,9 @@ Wire Wire Line
 Wire Wire Line
 	5350 4400 5250 4400
 Wire Wire Line
-	7200 4000 7200 4100
-Wire Wire Line
 	7200 4050 7350 4050
 Wire Wire Line
-	7350 4000 7350 4100
+	7350 3800 7350 4100
 Wire Wire Line
 	7250 4100 7250 4050
 Connection ~ 7250 4050
@@ -1253,9 +1229,7 @@ Wire Wire Line
 	6950 3800 6950 4200
 Wire Wire Line
 	6950 3950 6900 3950
-Connection ~ 7200 3800
 Connection ~ 6950 3950
-Connection ~ 7200 4050
 Connection ~ 7350 4050
 Wire Wire Line
 	6800 4400 6950 4400
@@ -1397,4 +1371,6 @@ Wire Wire Line
 	1700 10050 1700 10800
 Connection ~ 1700 10800
 Connection ~ 1400 10050
+Wire Wire Line
+	7200 4050 7200 4100
 $EndSCHEMATC
