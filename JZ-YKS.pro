@@ -1,5 +1,5 @@
-update=Ср. 15 янв. 2014 01:45:15
-last_client=pcbnew
+update=Пн. 10 февр. 2014 20:51:52
+last_client=cvpcb
 [eeschema]
 version=1
 LibDir=
@@ -43,13 +43,15 @@ DrawSegmentWidth="    0,200000"
 BoardOutlineThickness="    0,150000"
 ModuleOutlineThickness="    0,150000"
 [pcbnew/libraries]
-LibDir=
-LibName1=mod/crystal
-LibName2=mod/smd
-LibName3=mod/tsop
-LibName4=mod/CON_USB_MB
-LibName5=mod/qfp-gen
-LibName6=mod/sot
-LibName7=mod/pinhead
-LibName8=mod/pinhead-double
-LibName9=mod/ohw-logo
+LibName1=CON_USB_MB
+LibName2=crystal
+LibName3=pinhead
+LibName4=pinhead-double
+LibName5=qfp-gen
+LibName6=smd
+LibName7=sot
+LibName8=tsop
+LibDir=mod
+[cvpcb]
+version=1
+NetIExt=net
