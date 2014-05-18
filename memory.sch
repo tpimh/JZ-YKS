@@ -77,72 +77,6 @@ NoConn ~ 8150 2350
 NoConn ~ 8150 2300
 NoConn ~ 8150 2250
 $Comp
-L C C21
-U 1 1 522AFE91
-P 8400 4050
-F 0 "C21" H 8425 4100 30  0000 L CNN
-F 1 "0.1uF" H 8425 4000 30  0000 L CNN
-F 2 "~" H 8400 4050 60  0000 C CNN
-F 3 "~" H 8400 4050 60  0000 C CNN
-	1    8400 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C22
-U 1 1 522AFEA0
-P 8550 4050
-F 0 "C22" H 8575 4100 30  0000 L CNN
-F 1 "0.1uF" H 8575 4000 30  0000 L CNN
-F 2 "~" H 8550 4050 60  0000 C CNN
-F 3 "~" H 8550 4050 60  0000 C CNN
-	1    8550 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C23
-U 1 1 522AFEAF
-P 8700 4050
-F 0 "C23" H 8725 4100 30  0000 L CNN
-F 1 "0.1uF" H 8725 4000 30  0000 L CNN
-F 2 "~" H 8700 4050 60  0000 C CNN
-F 3 "~" H 8700 4050 60  0000 C CNN
-	1    8700 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C24
-U 1 1 522AFEBE
-P 8850 4050
-F 0 "C24" H 8875 4100 30  0000 L CNN
-F 1 "0.1uF" H 8875 4000 30  0000 L CNN
-F 2 "~" H 8850 4050 60  0000 C CNN
-F 3 "~" H 8850 4050 60  0000 C CNN
-	1    8850 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C25
-U 1 1 522AFECD
-P 9000 4050
-F 0 "C25" H 9025 4100 30  0000 L CNN
-F 1 "0.1uF" H 9025 4000 30  0000 L CNN
-F 2 "~" H 9000 4050 60  0000 C CNN
-F 3 "~" H 9000 4050 60  0000 C CNN
-	1    9000 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C26
-U 1 1 522AFEDC
-P 9150 4050
-F 0 "C26" H 9175 4100 30  0000 L CNN
-F 1 "10uF" H 9175 4000 30  0000 L CNN
-F 2 "~" H 9150 4050 60  0000 C CNN
-F 3 "~" H 9150 4050 60  0000 C CNN
-	1    9150 4050
-	1    0    0    -1  
-$EndComp
-$Comp
 L FB FB9
 U 1 1 522AFEEB
 P 9400 3950
@@ -163,17 +97,6 @@ F 2 "~" H 9650 3950 60  0000 C CNN
 F 3 "~" H 9650 3950 60  0000 C CNN
 	1    9650 3950
 	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR041
-U 1 1 522AFF09
-P 9400 4150
-F 0 "#PWR041" H 9400 4250 30  0001 C CNN
-F 1 "GND" H 9400 4080 30  0001 C CNN
-F 2 "~" H 9400 4150 60  0000 C CNN
-F 3 "~" H 9400 4150 60  0000 C CNN
-	1    9400 4150
-	0    -1   -1   0   
 $EndComp
 NoConn ~ 8350 5400
 $Comp
@@ -270,9 +193,9 @@ Text GLabel 7200 5150 0    39   Input ~ 0
 WE0
 Text GLabel 7000 5200 0    39   Input ~ 0
 RDWR
-Text GLabel 7200 5300 0    39   Input ~ 0
-RAS
 Text GLabel 7000 5350 0    39   Input ~ 0
+RAS
+Text GLabel 7200 5300 0    39   Input ~ 0
 CAS
 Text GLabel 7000 5450 0    39   Input ~ 0
 DCS
@@ -323,22 +246,7 @@ $EndComp
 Wire Wire Line
 	9500 3950 9650 3950
 Wire Wire Line
-	7650 3950 9300 3950
-Connection ~ 9150 3950
-Connection ~ 9000 3950
-Connection ~ 8850 3950
-Connection ~ 8700 3950
-Connection ~ 8550 3950
-Wire Wire Line
 	7650 3950 7650 4150
-Connection ~ 8400 3950
-Wire Wire Line
-	8400 4150 9400 4150
-Connection ~ 9000 4150
-Connection ~ 8850 4150
-Connection ~ 8550 4150
-Connection ~ 8700 4150
-Connection ~ 9150 4150
 Wire Wire Line
 	7700 4150 7700 3950
 Connection ~ 7700 3950
@@ -632,4 +540,6 @@ Wire Wire Line
 Connection ~ 10550 5200
 Text Label 8100 3950 0    60   ~ 0
 MEM_VCC
+Wire Wire Line
+	7650 3950 9300 3950
 $EndSCHEMATC
